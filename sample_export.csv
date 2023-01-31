@@ -1,0 +1,81 @@
+Question Number,Assessment ID,Assessment Name,Partner Name,Question Text,Answer Text,Question Grade
+B.4,104111,Security Framework,Allied British Plastics,Supplier Longevity,>10 years,Low Risk
+B.4,109170,Security Framework,AALTO Airlines,Supplier Longevity,>10 years,Low Risk
+B.4,111030,Security Framework,Yoyodyne Propulsion Systems,Supplier Longevity,>10 years,Low Risk
+B.4,104932,Security Framework,Wayne Enterprises,Supplier Longevity,1-2 Years,High Risk
+B.4,108755,Security Framework,Trade Federation,Supplier Longevity,1-2 Years,High Risk
+B.4,111031,Security Framework,Bad Wolf Corporation,Supplier Longevity,1-2 Years,High Risk
+B.4,104307,Security Framework,Umbrella Corporation,Supplier Longevity,2-10 years,Low Risk
+B.4,108753,Security Framework,Skarloey Railway,Supplier Longevity,2-10 years,Low Risk
+B.4,108754,Security Framework,Allied British Plastics,Supplier Longevity,2-10 years,Low Risk
+B.4,109171,Security Framework,Soar Airways,Supplier Longevity,2-10 years,Low Risk
+A.2,104932,Security Framework,Wayne Enterprises,Affect if not able to supply,Critical Impact,High Risk
+A.2,108753,Security Framework,Skarloey Railway,Affect if not able to supply,Critical Impact,High Risk
+B.3,104932,Security Framework,Wayne Enterprises,OTIF Performance,Does not meet target,High Risk
+B.3,108754,Security Framework,Allied British Plastics,OTIF Performance,Does not meet target,High Risk
+B.1,108753,Security Framework,Skarloey Railway,Quality Performance,Escapes from suppliers/poor corrective actions,High Risk
+B.1,108755,Security Framework,Trade Federation,Quality Performance,Escapes from suppliers/poor corrective actions,High Risk
+A.3,104932,Security Framework,Wayne Enterprises,Potential of non-conformance affecting customer,Inconvenience to customer,High Risk
+A.3,111030,Security Framework,Yoyodyne Propulsion Systems,Potential of non-conformance affecting customer,Inconvenience to customer,High Risk
+A.2,104111,Security Framework,Allied British Plastics,Affect if not able to supply,Low Impact,Low Risk
+A.2,108754,Security Framework,Allied British Plastics,Affect if not able to supply,Low Impact,Low Risk
+A.2,108755,Security Framework,Trade Federation,Affect if not able to supply,Low Impact,Low Risk
+A.2,109171,Security Framework,Soar Airways,Affect if not able to supply,Low Impact,Low Risk
+A.2,111030,Security Framework,Yoyodyne Propulsion Systems,Affect if not able to supply,Low Impact,Low Risk
+A.2,111031,Security Framework,Bad Wolf Corporation,Affect if not able to supply,Low Impact,Low Risk
+B.2,104111,Security Framework,Allied British Plastics,Past audit results,Major Finding,High Risk
+B.2,111031,Security Framework,Bad Wolf Corporation,Past audit results,Major Finding,High Risk
+B.3,104111,Security Framework,Allied British Plastics,OTIF Performance,Meets target or not measured,Low Risk
+B.3,104307,Security Framework,Umbrella Corporation,OTIF Performance,Meets target or not measured,Low Risk
+B.3,108753,Security Framework,Skarloey Railway,OTIF Performance,Meets target or not measured,Low Risk
+B.3,108755,Security Framework,Trade Federation,OTIF Performance,Meets target or not measured,Low Risk
+B.3,109170,Security Framework,AALTO Airlines,OTIF Performance,Meets target or not measured,Low Risk
+B.3,109171,Security Framework,Soar Airways,OTIF Performance,Meets target or not measured,Low Risk
+B.3,111030,Security Framework,Yoyodyne Propulsion Systems,OTIF Performance,Meets target or not measured,Low Risk
+B.3,111031,Security Framework,Bad Wolf Corporation,OTIF Performance,Meets target or not measured,Low Risk
+B.2,104307,Security Framework,Umbrella Corporation,Past audit results,Minor Finding,Low Risk
+B.2,109170,Security Framework,AALTO Airlines,Past audit results,Minor Finding,Low Risk
+B.2,109171,Security Framework,Soar Airways,Past audit results,Minor Finding,Low Risk
+B.2,111030,Security Framework,Yoyodyne Propulsion Systems,Past audit results,Minor Finding,Low Risk
+A.2,104307,Security Framework,Umbrella Corporation,Affect if not able to supply,Moderate Impact,High Risk
+A.2,109170,Security Framework,AALTO Airlines,Affect if not able to supply,Moderate Impact,High Risk
+A.1,108753,Security Framework,Skarloey Railway,Do you have approvals in place?,N/A,High Risk
+A.1,109171,Security Framework,Soar Airways,Do you have approvals in place?,No,High Risk
+A.1,104111,Security Framework,Allied British Plastics,Do you have approvals in place?,No,High Risk
+A.4,104307,Security Framework,Umbrella Corporation,Sole Supplier,No,High Risk
+A.4,109171,Security Framework,Soar Airways,Sole Supplier,No,High Risk
+B.1,104111,Security Framework,Allied British Plastics,Quality Performance,No escapes or concessions,Low Risk
+B.1,104307,Security Framework,Umbrella Corporation,Quality Performance,No escapes or concessions,Low Risk
+B.1,108754,Security Framework,Allied British Plastics,Quality Performance,No escapes or concessions,Low Risk
+B.1,109170,Security Framework,AALTO Airlines,Quality Performance,No escapes or concessions,Low Risk
+B.1,111030,Security Framework,Yoyodyne Propulsion Systems,Quality Performance,No escapes or concessions,Low Risk
+B.1,111031,Security Framework,Bad Wolf Corporation,Quality Performance,No escapes or concessions,Low Risk
+B.2,104932,Security Framework,Wayne Enterprises,Past audit results,No Findings,Low Risk
+B.2,108753,Security Framework,Skarloey Railway,Past audit results,No Findings,Low Risk
+B.2,108754,Security Framework,Allied British Plastics,Past audit results,No Findings,Low Risk
+B.2,108755,Security Framework,Trade Federation,Past audit results,No Findings,Low Risk
+A.3,104111,Security Framework,Allied British Plastics,Potential of non-conformance affecting customer,No risk to product realization,Low Risk
+A.3,104307,Security Framework,Umbrella Corporation,Potential of non-conformance affecting customer,No risk to product realization,Low Risk
+A.3,108754,Security Framework,Allied British Plastics,Potential of non-conformance affecting customer,No risk to product realization,Low Risk
+A.3,109170,Security Framework,AALTO Airlines,Potential of non-conformance affecting customer,No risk to product realization,Low Risk
+A.3,109171,Security Framework,Soar Airways,Potential of non-conformance affecting customer,No risk to product realization,Low Risk
+A.3,111031,Security Framework,Bad Wolf Corporation,Potential of non-conformance affecting customer,No risk to product realization,Low Risk
+B.1,104932,Security Framework,Wayne Enterprises,Quality Performance,Ocassional concessions,Low Risk
+B.1,109171,Security Framework,Soar Airways,Quality Performance,Ocassional concessions,Low Risk
+A.3,108753,Security Framework,Skarloey Railway,Potential of non-conformance affecting customer,Potential escape,High Risk
+A.3,108755,Security Framework,Trade Federation,Potential of non-conformance affecting customer,Potential escape,High Risk
+A.1,104307,Security Framework,Umbrella Corporation,Do you have approvals in place?,Yes,Low Risk
+A.1,111030,Security Framework,Yoyodyne Propulsion Systems,Do you have approvals in place?,Yes,Low Risk
+A.1,111031,Security Framework,Bad Wolf Corporation,Do you have approvals in place?,Yes,Low Risk
+A.1,104932,Security Framework,Wayne Enterprises,Do you have approvals in place?,Yes,Low Risk
+A.1,108754,Security Framework,Allied British Plastics,Do you have approvals in place?,Yes,Low Risk
+A.1,108755,Security Framework,Trade Federation,Do you have approvals in place?,Yes,Low Risk
+A.1,109170,Security Framework,AALTO Airlines,Do you have approvals in place?,Yes,Low Risk
+A.4,104932,Security Framework,Wayne Enterprises,Sole Supplier,Yes but available from other suppliers within time trame or normal operational activities,Low Risk
+A.4,108753,Security Framework,Skarloey Railway,Sole Supplier,Yes but available from other suppliers within time trame or normal operational activities,Low Risk
+A.4,108754,Security Framework,Allied British Plastics,Sole Supplier,Yes but available from other suppliers within time trame or normal operational activities,Low Risk
+A.4,108755,Security Framework,Trade Federation,Sole Supplier,Yes but available from other suppliers within time trame or normal operational activities,Low Risk
+A.4,109170,Security Framework,AALTO Airlines,Sole Supplier,Yes but available from other suppliers within time trame or normal operational activities,Low Risk
+A.4,104111,Security Framework,Allied British Plastics,Sole Supplier,Yes and risk to business continuity,High Risk
+A.4,111030,Security Framework,Yoyodyne Propulsion Systems,Sole Supplier,Yes and risk to business continuity,High Risk
+A.4,111031,Security Framework,Bad Wolf Corporation,Sole Supplier,Yes and risk to business continuity,High Risk
