@@ -5,26 +5,36 @@ Data input and export format
 ------
 Sample input format
 
-| Assessment Id | Assessment Name | Partner Name | Question Number | Question Text | Answer Text |
+| assessmentId | partner | product| questionNumber | questionTex | answerText |
 | ------------- |-------------| -----| -----| -----| -----| 
-| 34  | Risk Audit | Partner 1 | A.1 | Lorem ipsum dolor sit amet | Yes |
-| 34  | Risk Audit | Partner 1 | A.2 | Excepteur sint occaecat cupidatat | Yes |
-| 37  | Risk Audit | Partner 2 | A.1 | Lorem ipsum dolor sit amet | No |
-| 37  | Risk Audit | Partner 2 | A.2 | Excepteur sint occaecat cupidatat | Yes |
+| 34  | Partner 1 | Product 1 | A.1 | Lorem ipsum dolor sit amet | Yes |
+| 34  | Partner 1 | Product 1 | A.2 | Excepteur sint occaecat cupidatat | Yes |
+| 37  | Partner 1 | Product 2 | A.1 | Lorem ipsum dolor sit amet | No |
+| 37  | Partner 2 | Product 2 | A.2 | Excepteur sint occaecat cupidatat | Yes |
 
-Sample export format
+Sample export format (questions as columns)
 
-| Assessment Name | Partner Name | A.1 Lorem ipsum dolor sit amet | A.2 Excepteur sint occaecat cupidatat |
+| Partner Name | A.1 Lorem ipsum dolor sit amet | A.2 Excepteur sint occaecat cupidatat |
 | ------------- |-------------| -----| -----|
-| Risk Audit | Partner 1 |  Yes | Yes |
-| Risk Audit | Partner 2 | No| Yes |
+| Partner 1  | Product 1 |  Yes | Yes |
+| Partner 1  | Product 2 | No| Yes |
+
+Sample export format (assessment comparison
+| | |Partner 1 | Partner 2|
+| | |Product 1|Product 2|
+| questionNumber | questionText | answer | answer |
+| ------------- |-------------| -----| -----| -----| -----| 
+|  A.1 | Lorem ipsum dolor sit amet | Yes | No |
+|  A.2 | Excepteur sint occaecat cupidatat | Yes | Yes |
+
 
 Usage
 ------
-From the location of the python file call: `python3 rotate_question_data.py -f sample_export.csv`
-Outputs `converted.csv` in the same location
+I've designed these to eventually plug into an API so go to the file and adjust the main function
 
 Requirements
 ------
 - python3
+- pandas
+- natsort
 - file must include headers shown in the sample input format
