@@ -15,15 +15,16 @@ Sample input format
 Sample export format (questions as columns)
 
 | Partner Name | A.1 Lorem ipsum dolor sit amet | A.2 Excepteur sint occaecat cupidatat |
-| ------------- |-------------| -----| -----|
+| ------------- |-------------| -----|
 | Partner 1  | Product 1 |  Yes | Yes |
 | Partner 1  | Product 2 | No| Yes |
 
 Sample export format (assessment comparison
-| | |Partner 1 | Partner 2|
-| | |Product 1|Product 2|
+
+|  |  |Partner 1 | Partner 2|
+| ------------- |-------------| -----| ---|
+|  |  |Product 1|Product 2|
 | questionNumber | questionText | answer | answer |
-| ------------- |-------------| -----| -----| -----| -----| 
 |  A.1 | Lorem ipsum dolor sit amet | Yes | No |
 |  A.2 | Excepteur sint occaecat cupidatat | Yes | Yes |
 
