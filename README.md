@@ -5,7 +5,7 @@ Data input and export format
 ------
 Sample input format
 
-| assessmentId | partner | product| questionNumber | questionTex | answerText |
+| assessmentId | partner | product| questionNumber | questionText | answerText |
 | ------------- |-------------| -----| -----| -----| -----| 
 | 34  | Partner 1 | Product 1 | A.1 | Lorem ipsum dolor sit amet | Yes |
 | 34  | Partner 1 | Product 1 | A.2 | Excepteur sint occaecat cupidatat | Yes |
