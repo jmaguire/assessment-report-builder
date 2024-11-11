@@ -1,5 +1,6 @@
 import pandas as pd
 from typing import Dict, List, Tuple
+import time
 
 def get_meta_data_fields(
   df: pd.DataFrame, 
@@ -18,6 +19,7 @@ def get_meta_data_fields(
         Dict[int, Dict[str, any]]: A dictionary mapping each assessment ID to its metadata.
     """
     if pivot_column not in metadata_columns:
+        # need to create a new list to not overwrite metadata columns
         metadata_columns = [pivot_column] + metadata_columns
     return df[metadata_columns].drop_duplicates().set_index(pivot_column).to_dict('index')
 
@@ -66,14 +68,15 @@ def get_new_columns(
         List[Tuple]: A list of tuples representing the new MultiIndex columns.
     """
     new_columns = []
-    metadata_count = len(metadata)
+    metadata_count = len(assessment_metadata)
     for col in pivot_df.columns:
         if col in metadata.keys(): 
             assessment_id = int(col)
             metadata_for_col = metadata.get(assessment_id, {})
-            metadata_as_list = [metadata_for_col[key] for key in assessment_metadata]
+            # handle null or empty
+            metadata_as_list = [metadata_for_col.get(key, '') or '' for key in assessment_metadata]
             metadata_as_list.append(pivot_value)
-            new_columns.append((metadata_as_list))
+            new_columns.append(tuple(metadata_as_list))
         else:
             new_columns.append( ('',) * metadata_count + (col,))
     return new_columns
@@ -139,6 +142,7 @@ def main(
     transformed_df.to_csv(output_csv_path, encoding='utf-8', index=False)
 
 if __name__ == "__main__":
+    start_time = time.perf_counter()
     main(
         input_csv_path='sample_export.csv',
         output_csv_path='sample_result.csv',
@@ -147,3 +151,6 @@ if __name__ == "__main__":
         pivot_column='assessmentId',
         pivot_value='answer'
     )
+    end_time = time.perf_counter()
+    elapsed_time = end_time - start_time
+    print(f"Time taken: {elapsed_time:.4f} seconds")
